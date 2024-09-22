@@ -28,28 +28,7 @@ If you're using Google Colab, you can directly run the provided code without any
 
 ## Dataset
 
-We utilize the **Chars74K** dataset, which contains images of individual characters with various scales. We specifically use the `EnglishFnt.tgz` file, which includes:
-
-- **62 Classes:** Digits (0-9), uppercase letters (A-Z), and lowercase letters (a-z).
-- **Variations:** Characters from computer fonts with four styles (italic, bold, and normal).
-
-### Downloading the Dataset
-
-The dataset can be downloaded directly or accessed via Google Drive if mounted.
-
-```python
-import tarfile
-
-# For Google Drive users
-if drive_mounted:
-    tar = tarfile.open('/content/drive/MyDrive/Python_OCR/EnglishFnt.tgz')
-else:
-    !wget -O EnglishFnt.tgz http://www.ee.surrey.ac.uk/CVSSP/demos/chars74k/EnglishFnt.tgz
-    tar = tarfile.open('EnglishFnt.tgz')
-
-tar.extractall('./EnglishFnt')
-tar.close()
-```
+Chars74k
 
 ## Image Preprocessing
 
