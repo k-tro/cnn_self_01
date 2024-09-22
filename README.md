@@ -140,6 +140,3 @@ def predict(model, image_path, transform):
 2. Follow the code snippets in each section to train and validate your OCR model.
 3. Use the `predict` function to test the model with new images.
 
-## License
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
