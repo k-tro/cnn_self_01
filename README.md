@@ -4,7 +4,7 @@ This project implements an Optical Character Recognition (OCR) model using PyTor
 
 ## Table of Contents
 
-- [Installation](#installation)
+- [Dependencies](#dependencies)
 - [Dataset](#dataset)
 - [Image Preprocessing](#image-preprocessing)
 - [Data Loading and Preparation](#data-loading-and-preparation)
