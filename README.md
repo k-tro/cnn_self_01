@@ -113,9 +113,3 @@ def predict(model, image_path, transform):
     # Code for making predictions
 ```
 
-## Usage
-
-1. Ensure you have the dataset ready.
-2. Follow the code snippets in each section to train and validate your OCR model.
-3. Use the `predict` function to test the model with new images.
-
