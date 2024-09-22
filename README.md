@@ -10,21 +10,13 @@ This project implements an Optical Character Recognition (OCR) model using PyTor
 - [Data Loading and Preparation](#data-loading-and-preparation)
 - [Building the CNN](#building-the-cnn)
 - [Training the Model](#training-the-model)
-- [Validation and Testing](#validation-and-testing)
-- [Saving and Loading the Model](#saving-and-loading-the-model)
 - [Making Predictions](#making-predictions)
-- [Usage](#usage)
-- [License](#license)
 
-## Installation
-
-To get started, make sure you have the following packages installed:
+## Dependencies
 
 ```bash
 pip install torch torchvision matplotlib
 ```
-
-If you're using Google Colab, you can directly run the provided code without any additional installation.
 
 ## Dataset
 
@@ -79,29 +71,6 @@ The model is trained using Stochastic Gradient Descent (SGD) and Cross Entropy L
 ```python
 optimizer = optim.SGD(model.parameters(), lr=0.001, momentum=0.9)
 criterion = nn.CrossEntropyLoss()
-```
-
-## Validation and Testing
-
-After training, the model is validated and tested using the respective datasets.
-
-```python
-def validate(model, val_loader, criterion):
-    # Code for validation
-```
-
-```python
-def test(model, test_loader, criterion):
-    # Code for testing
-```
-
-## Saving and Loading the Model
-
-You can save the trained model for later use or further training.
-
-```python
-torch.save(model.state_dict(), 'model.pth')
-model.load_state_dict(torch.load('model.pth'))
 ```
 
 ## Making Predictions
