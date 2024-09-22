@@ -4,8 +4,6 @@
 
 ### *using Histogram of Oriented Gradients and Neural Networks*
 
-## Please visit [HERE](https://devendrapratapyadav.github.io/Chars74k_Recognition) for analysis and results.
-
 The code is divided into two parts-
 
 1. C++ - Preprocessing input images and feature vector formation
