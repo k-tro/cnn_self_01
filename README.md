@@ -23,10 +23,6 @@ Preprocessing and feature vector formation code is "proj.cpp" in "Code" folder.
 
 
 The data (images) used are not provided since they are very large in size.
-Download the feature vector .txt files and original images used here:
-
-https://drive.google.com/drive/folders/0B6TI76M3_KiyZUR0UE1WRXJka1E?usp=sharing
-
 
 ##### Preprocessing code: 
 Compile:
